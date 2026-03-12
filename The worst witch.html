@@ -1,0 +1,374 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<body>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>แนะนำหนัง</title>
+
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.body {
+    background-color: black;
+}
+
+
+.nav-con {
+    display: flex;
+    justify-content:left;
+    padding: 1rem;
+}
+
+nav {
+    background-color: hsl(0, 0%, 0%);
+    display: flex;
+    justify-content: left;
+    /* border: 1px solid red; */
+    padding: 10px;
+   
+}
+
+.logo {
+    margin-top: 2rem;
+    margin: 2rem;
+}
+
+
+.logo a {
+    font-size: 3rem;
+    color: hsl(0, 100%, 41%);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.hero {
+    background-color: #000000;
+    
+}
+
+
+.hero-con {
+    display: flex;
+}
+
+
+.hero-info {
+    
+    padding: 3rem;
+   
+}
+
+.hero-info h3 {
+    font-size: 3.5rem;
+    color: #F0F8FF;
+    margin: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 83%;
+    padding: 2rem;
+    background-color: hsl(0, 96%, 44%);
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.hero-info h2 {
+    font-size: 2.8rem;
+    color: #F0F8FF;
+   
+}
+
+
+.hero-info h1 {
+    font-size: 1.5rem;
+    color: #F0F8FF;
+    margin-left: 1rem;
+}
+
+.hero-info h4 {
+    font-size: 1rem;
+    color: #F0F8FF;
+   
+}
+
+.hero-info p {
+    margin: 1rem;
+    color: #F0F8FF;
+    font-size: 1.2rem;
+}
+
+
+.hero-img img {
+    padding-right: 3rem;
+    width: 700px;
+    height: 390px;
+    background-color:#000000;
+   
+}
+
+.hero-vdo {
+    padding-top: 2rem;
+    margin-top: 6rem;
+   
+}
+
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: 2rem;
+    
+}
+
+.menu li {
+    margin: 1rem;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Sans-serif;
+   
+}
+ิ
+
+.banner-info{
+    
+    color: #000000;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner-info h1 {
+    font-weight: bold;
+  color: #F0F8FF;
+}
+
+.blog {
+    background-color: #000000;
+}
+.blog-item {
+   margin: 1rem;
+}
+
+.blog-item p {
+    font-size: small;
+    color: #fff;
+    padding-left: 3rem;
+    padding-top:1rem;
+}
+
+.blog-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.blog-con img{
+    width: 100%;
+    
+}
+.blog-title h3{
+   size: 2rem;
+   margin-left: 3rem;
+   color: #F0F8FF;
+   padding-bottom: 1rem;
+}
+
+.blog-item h4 {
+   size: 2rem;
+   margin-left: 3rem;
+   color: #F0F8FF;
+   text-align: center;
+}
+
+
+
+.blog-title p {
+    color:white;
+    padding-left: 5rem;
+}
+.blog-item img {
+    margin: 1rem;
+
+}
+
+.blog-title iframe {
+   padding-left: 10rem;
+}
+.footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.blog-bth{
+    margin: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    color: #fff;
+    background-color: #d30b0b;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+</style>
+
+   <link rel="stylesheet" href="">
+   
+   <!-- Nav Start -->
+   <nav>
+      <div class="logo">
+       <a href="">NETFLIX</a>
+      </div>
+
+      <ul class="menu">
+         <li><a href="file:///C:/Users/Acer/Desktop/NetflixWeb/webpage.html">Home</a></li>
+         <li><a href="#">TV Shows</a></li>
+         <li><a href="#">Movies</a></li>
+         <li><a href="#">New & Popular</a></li>
+         <li><a href="#">My list</a></li>
+      </ul>
+   </nav>
+   <!-- Nav End -->
+  
+  
+
+   <section class="hero">
+      <div class="container">
+         <div class="hero-con">
+            <div class="hero-info">
+               <h3>The worst witch</h3>
+               <h2>โอมเพี้ยง! แม่มดน้อยสู้ตาย</h2>
+               <p>2017 | ระดับความเหมาะสม:7+ | 4 ซีซั่น | มุมเด็ก</p>
+               <p>เรื่องราวของสาวน้อยจอมซุ่มซ่ามที่สร้างจากหนังสือแสนรักของจิล เมอร์ฟีย์ หลังจากที่เธอจับพลัดจับผลูได้เข้าไปเรียนที่โรงเรียนแม่มด เธอก็ตระหนักว่าตัวเองสมควรอยู่ที่นั่นแล้ว</p>
+               <p>นักแสดงนำ:เบลล่า แรมซีย์,ลิเดีย เพจ,แคลร์ ฮิกกินส์</p>
+            </div>
+            <div class="hero-img">
+              <img src="https://occ-0-38-444.1.nflxso.net/dnm/api/v6/6gmvu2hxdfnQ55LZZjyzYR4kzGk/AAAABRYPFyg8buq3uc7O9Fr5cTi7tK12nesNTt2skRSLX2H-AzluW3JQm9msWmoO9eUyWxlBYOhwNhNh4twFv_pCSJu2JX6vSBR6eMC8naYo1pEpOzI82DzmAo25sAkYsdedDBQjgg.jpg?r=208" alt="">
+            </div>
+         </div>  
+      </div>
+   </section>
+  
+
+   <section class="blog">
+    <div class="container">
+
+        <div class="blog-title">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/Iu4ME62vI8M" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/vHK44a_MvnM" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h3>ซีซั่น 1  ตอน โอมเพี้ยง! แม่มดน้อยสู้ตาย </h3>
+            <p>ปีเปิดตัว: 2017</p>
+            <p>ปีแรกของมิลเดร็ด ฮับเบิลที่โรงเรียนแม่มดแค็กเกิลเต็มไปด้วยยาพิษ เวทมนตร์ และไม้กวาด แถมมีเรื่องวุ่นวายตามมาไม่หยุดหย่อน</p>
+        </div>
+        <div class="blog-con">
+            <div class="blog-item">
+                <img src="https://occ-0-1982-64.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABeGn46vD0-JyRZyzzyKH6jI-1d1objJR4_w4wc6aIQyDOzpZ-rE6AY9h-xlV-X3ftpCWVTr08YJUTBcW8wE1ANZCWNidZ5_y5193mXnreUiRHSfo7tK7UZjD.jpg?r=dd8" alt="">
+                <h4>1. วันคัดเลือก</h4>
+                <p>เมื่อจู่ๆ มีแม่มดตกจากไม้กวาดมาชนระเบียงบ้าน มิลเดร็ด ฮับเบิลจึงขอติดสอยห้อยตามสู่วิทยาลัยแค็กเกิล และเริ่มต้นฝึกหัดเพื่อเป็นแม่มดน้อยมือใหม่</p>
+            </div>
+            
+           
+            <div class="blog-item">
+                <img src="https://occ-0-1982-64.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABbBre5aKmS2RHiCTZUchLSPo6-VrwTyVYTz7hr58mEQoJJ5qX9bS5ULxpkvMZVcYqrb7IWQ3YYOqbe_XD7O4wd3zALd48PVG8NbXe3x0khkR5j7V-_uWAGWa.jpg?r=aba" alt="">
+                <h4>2. แท็บบี้</h4>
+                <p>ถึงเวลาที่นักเรียนชั้นปีหนึ่งต้องเลือกแมวคู่ใจ แต่แท็บบี้เจ้าเหมียวคู่ใจของมิลเดร็ด กลับเป็นผู้ช่วยการบินที่ไม่ได้เรื่อง เพราะมันกลัวการเหาะเหินเสียนี่</p>
+            </div>
+            
+            
+            <div class="blog-item">
+                <img src="https://occ-0-1982-64.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQ5moxdtetak6V1f3pPlKljS6r6AQSWUK9xQAWfNNv4ozF67rNS2F53JJ6GKwlzZMqJ0xxSINWUlYBWyCSJa1CCgx0kNVBrNiy0z_W7__ZBzBkRnXSL_D2LF.jpg?r=58c" alt="">
+                <h4>3. เด็กใหม่</h4>
+                <p>นักเรียนใหม่คนดังย้ายมาที่โรงเรียนด้วยมาดแฟชั่นแบบร็อคสตาร์ และถูกชะตามิลเดร็ดทันที อีเธลจึงใช้มิตรภาพที่เพิ่งเกิดขึ้นของทั้งสองมาทำให้ม็อดรู้สึกอิจฉา</p>
+            </div>
+
+        </div>
+        <div class="blog-con">
+            <div class="blog-item">
+                <img src="https://occ-0-1982-64.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQUF4EiqPZe9y0DtFmztLy6ib-28-G3wjd9Qsj6eeirQQlH0J7ZP_Ghp55quEgdxvvMQHMqWlMT1mbae_54e1sY5WEGlR0ifk7pagVeBUNU-2es3ydDvglFR.jpg?r=455" alt="">
+                <h4>4. ชีวิตหนองบึง</h4>
+                <p>ความผิดพลาดในการเสกคาถาทำให้อีเธลกลายเป็นหมู เธอจึงตอบโต้ด้วยการเสกมิลเดร็ดให้กลายเป็นกบ ทำให้ม็อดและอีนิตต้องร่วมมือกันเพื่อหามิลเดร็ดให้พบ</p>
+            </div>
+            
+           
+            <div class="blog-item">
+                <img src="https://occ-0-1982-64.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWSdkxrHdhtYiCUKBID4c28ag92SNp_QoGLb8aGQvtD8NY_fJsfwwOxuESwfqQFeJPvAaQt0MUQrKK18HyYN187SKaTAryJ80OcdfLmKJh_AHCG1yLFzFGic.jpg?r=046" alt="">
+                <h4>5. การมาเยือนของหัวหน้าพ่อมด</h4>
+                <p>ทั้งโรงเรียนครึกครื้นไปด้วยความตื่นเต้นเมื่อหัวหน้าพ่อมดเดินทางมาเยือนโดยไม่คาดคิด และคุณแค็กเกิลได้แต่งตั้งให้มิลเดร็ดเป็นคนนำการแสดงระบำไม้กวาด</p> 
+            </div>
+            
+            
+            <div class="blog-item">
+                <img src="https://occ-0-1982-64.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABQupUh3XM8pw-r6oIa_Pi7kWbtYCwLWxwbh_CdXRCYGwfvISlOE3jreR1QFd0ORCrjB67X5fcZcmYBfFnxf_TAZrMxFKEJj0MX_v8-V19ZleJvRn0It_pvfs.jpg?r=a08" alt="">
+                <h4>6. ครูที่ดีที่สุด</h4>
+                <p>แผนการของมิลเดร็ดที่จะทำคะแนนให้ได้สูงสุดในวิชาประวัติศาสตร์กลับกลายเป็นเรื่องวุ่น เมื่อคาถาปัญญาเปลี่ยนเธอให้เป็นหญิงแก่ และต้องตกกระไดพลอยโจนปลอมตัวเป็นครู</p>
+            </div>
+
+            <div class="blog-item">
+                <img src="https://occ-0-1982-64.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABZk1uIaYrnxOst8gOhkiXhSoN6AvYv6ydU9Lij12_CctCVgTknNB5X8DR4BgCBSleEmliBIGgFA8LFmCofrJYswaUooNWeMSjfstOoK44gZe6heIio3oKGug.jpg?r=6e9" alt="">
+                <h4>7. ความผิดพลาดครั้งใหญ่ของม็อด</h4>
+                <p>ม็อดที่กำลังตื่นตระหนกตัดสินใจใช้ผงหลงลืมในวันพบผู้ปกครองเพื่อให้ทุกคนลืมความผิดพลาดของเธอ แต่มิลเดร็ดกลับจำไม่ได้เสียแล้วว่าทั้งคู่เคยเป็นเพื่อนกัน</p>
+            </div>
+
+            <div class="blog-item">
+                <img src="https://occ-0-1982-64.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWt8llKjOXMNM-3Z4iN7FVgM2qzRjzWRiwOzHE41XbgeTslYehWxjpF-fgkCh9qvSwFtHKlfV1IWqkFfqMEjIOIzcp9HnsOuPNod6J4lH5Mk-_hzFzSMcrOA.jpg?r=c2a" alt="">
+                <h4>8. แม่มดคนแรก</h4>
+                <p>เมื่อได้รับคำเชิญให้ไปงานรวมกลุ่มปีหนึ่ง มิลเดร็ดรู้สึกไม่มั่นใจว่าตนเองมีคุณสมบัติพอที่จะเข้าร่วมไหม .จนกระทั่งผมที่ยาวยุ่งเหยิงทำให้เธอคิดเปลี่ยนใจ</p>
+            </div>
+
+            <div class="blog-item">
+                <img src="https://occ-0-1982-64.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABbdcha5pKdlmdzQbglcrRUZwiG0APhOqlVhGH68IphN8Ard68ZKsGCK4DriiDp2tZJxsbO5ykkVMXIofJxzSTr7ltN-y9s4teLR34dcnz9XB4GPI30WYb999.jpg?r=5da" alt="">
+                <h4>9. การแข่งเวทมนตร์</h4>
+                <p>ครูฮาร์ดบรูมต้องใช้ไม้แข็งเมื่อโรงเรียนคู่แข่งมาเยือนโรงเรียนแค็กเกิลถึงถิ่น เพื่อร่วมแข่งขันเวทมนตร์ประจำปี</p>
+            </div>
+
+            <div class="blog-item">
+                <img src="https://occ-0-1982-64.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWt8llKjOXMNM-3Z4iN7FVgM2qzRjzWRiwOzHE41XbgeTslYehWxjpF-fgkCh9qvSwFtHKlfV1IWqkFfqMEjIOIzcp9HnsOuPNod6J4lH5Mk-_hzFzSMcrOA.jpg?r=c2a" alt="">
+                <h4>10. หมอกแห่งกาลเวลา</h4>
+                <p>เมื่อหมอกหนาปกคลุมทำให้โรงเรียนต้องปิดทางเข้าออก มิลเดร็ดและอีเธลแอบออกไปเพื่อตามหาแมว แต่พอกลับมาก็พบว่าโรงเรียนไม่เหมือนเดิมซะแล้ว</p>
+            </div>
+
+            <div class="blog-item">
+                <img src="https://occ-0-1982-64.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABYdK8LmvSsLMR0mX5OkMMWDW71mIOejX1f5BoieiTDVNQDydj9y8OurvaB2F_YZqpf_ld7-9wpMLiQUwTpu-OEu4K60PphM2v7ZSHKVJcs2dbLqni8d3fo4C.jpg?r=910" alt="">
+                <h4>11. ออกนอกเขต</h4>
+                <p>นักเรียนปีหนึ่งเตรียมสอบปลายภาคอย่างขะมักเขม้น แต่อีเธลอยากรู้ความจริงเกี่ยวกับมิลเดร็ด ครูแค็กเกิล และความลับของโรงเรียน</p>
+            </div>
+
+            <div class="blog-item">
+                <img src="https://occ-0-1982-64.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWl2_7CIlU03x-x-NzPp_iDQqsU9Iml6rT7kRLXx_oMEB5h8lzAZec8OE56X9ouFwBmCH7t3I36dbpQQi2e3ZfIbsz2cqr8N92UQO8p9nbIH_SBBXaCeZei6.jpg?r=5a3" alt="">
+                <h4>12. ครูใหญ่ยอดแย่</h4>
+                <p>เมื่อครูใหญ่คนใหม่บริหารโรงเรียนอย่างโหดร้าย บรรยากาศจึงมีแต่ความมืดหม่น แล้วแม่มดน้อยที่ "แย่ที่สุด" ของเราจะช่วยโรงเรียนนี้ไว้ได้ไหม</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+  
+   
+   <!-- Footer start -->
+   <footer>
+      <div class="footer">
+        <a href="file:///C:/Users/Acer/Desktop/NetflixWeb/webpage.html" class="blog-bth">Back</a>
+      </div>
+   </footer>
+   <!-- Footer End -->
+
+</body>
+</head>
+</html>

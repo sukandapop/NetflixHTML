@@ -1,0 +1,497 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<body>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>แนะนำหนัง</title>
+
+<style>
+    *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+.body {
+    background-color: black;
+}
+
+
+.nav-con {
+    display: flex;
+    justify-content:left;
+    padding: 1rem;
+}
+
+nav {
+    background-color: hsl(0, 0%, 0%);
+    display: flex;
+    justify-content: left;
+    /* border: 1px solid red; */
+    padding: 10px;
+   
+}
+
+.logo {
+    margin-top: 2rem;
+    margin: 2rem;
+}
+
+
+.logo a {
+    font-size: 3rem;
+    color: hsl(0, 100%, 41%);
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+.hero {
+    background-color: #000000;
+    
+}
+
+
+.hero-con {
+    display: flex;
+}
+
+
+.hero-info {
+    
+    padding: 2rem;
+   
+}
+
+.hero-info h3 {
+    font-size: 3.5rem;
+    color: #F0F8FF;
+    margin: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    width: 90%;
+    padding: 2rem;
+    background-color: hsl(0, 96%, 44%);
+    padding: 0.5rem 2rem;
+    text-decoration: none;
+    border-radius: 5px;
+    box-sizing: border-box;
+    display: inline-block;
+}
+
+.hero-info h2 {
+    font-size: 3rem;
+    color: #F0F8FF;
+    margin-left: 1rem;
+   
+}
+
+
+.hero-info h1 {
+    font-size: 1.5rem;
+    color: #F0F8FF;
+    margin-left: 1rem;
+}
+
+.hero-info h4 {
+    font-size: 1rem;
+    color: #F0F8FF;
+   
+}
+
+.hero-info p {
+    margin: 1rem;
+    color: #F0F8FF;
+    font-size: 1.2rem;
+}
+
+
+.hero-img img {
+    padding-right: 3rem;
+    width: 700px;
+    height: 460px;
+    background-color:#000000;
+   
+}
+
+.hero-vdo {
+    padding-top: 2rem;
+    margin-top: 6rem;
+   
+}
+
+
+.menu {
+    display: flex;
+    list-style: none;
+    align-items: center;
+    margin-left: 2rem;
+    
+}
+
+.menu li {
+    margin: 1rem;
+}
+
+.menu li a {
+    color: #fff;
+    text-decoration: none;
+    font-family: Sans-serif;
+   
+}
+ิ
+
+.banner-info{
+    
+    color: #000000;
+    height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+.banner-info h1 {
+    font-weight: bold;
+  color: #F0F8FF;
+}
+
+.blog {
+    background-color: #000000;
+}
+.blog-item {
+   margin: 1rem;
+}
+
+.blog-con {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+
+}
+.blog-con img{
+    width: 100%;
+    
+}
+.blog-title h3{
+   size: 2rem;
+   margin-left: 3rem;
+   color: #F0F8FF;
+   padding-bottom: 1rem;
+}
+
+.blog-item h4 {
+   padding-top:1rem;
+   size: 2rem;
+   margin-left: 1rem;
+   color: #F0F8FF;
+   text-align: center;
+}
+
+.blog-item p {
+    font-size: small;
+    color: #fff;
+    padding-left: 3rem;
+    padding-top:1rem;
+}
+
+.blog-item img {
+    margin: 0.5rem;
+
+}
+.blog-title p {
+    color: #fff;
+    padding-left: 3rem;
+}
+.blog-title iframe {
+   padding-left: 10rem;
+}
+.footer {
+    background-color: #000000;
+    padding: 20px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+
+.blog-bth{
+    margin: 0;
+    box-sizing: border-box;
+    display: inline-block;
+    color: #fff;
+    background-color: #d30b0b;
+    padding: 0.5rem 1rem;
+    text-decoration: none;
+    border-radius: 5px;
+}
+</style>
+
+   <link rel="stylesheet" href="">
+   
+   <!-- Nav Start -->
+   <nav>
+      <div class="logo">
+       <a href="">NETFLIX</a>
+      </div>
+
+      <ul class="menu">
+         <li><a href="file:///C:/Users/Acer/Desktop/NetflixWeb/webpage.html">Home</a></li>
+         <li><a href="#">TV Shows</a></li>
+         <li><a href="#">Movies</a></li>
+         <li><a href="#">New & Popular</a></li>
+         <li><a href="#">My list</a></li>
+      </ul>
+   </nav>
+   <!-- Nav End -->
+  
+  
+
+   <section class="hero">
+      <div class="container">
+         <div class="hero-con">
+            <div class="hero-info">
+               <h3>Anne with an E</h3>
+               <h2>แอนน์ที่มี "น์"</h2>
+               <p>2017 | ระดับความเหมาะสม:13+ | 3 ซีซั่น | ดราม่า</p>
+               <p>เด็กหญิงกำพร้าผู้กล้าหาญและเต็มไปด้วยความมุ่งมั่นได้มาอยู่ที่บ้านของสาวแก่และพี่ชายโสดผู้แสนสุภาพของเธอ ดัดแปลงจากนิยายคลาสสิค "แอนน์แห่งกรีนเกเบิลส์"</p>
+               <p>นักแสดงนำ:อมีเบธ แมคนัลตี้,เจอรัลดีน เจมส์,อาร์ เอช ทอมสัน
+                ผู้สร้าง:มอยร่า วัลลี่ เบเค็ตต์</p>
+            </div>
+            <div class="hero-img">
+              <img src="https://media.newyorker.com/photos/5914be07da561b79ebf192b9/master/w_2560%2Cc_limit/Larson-Anne-of-Green-Gables.jpg" alt="">
+            </div>
+         </div>  
+      </div>
+   </section>
+  
+
+   <section class="blog">
+    <div class="container">
+        <div class="blog-title">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/W6s3cCVnuWg" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            <h3>ซีซั่น 1   ตอนแอนน์ที่มี "น์" </h3>
+            <p>ปีเปิดตัว: 2017 </p>
+            <p>การมาถึงของเด็กหญิงกำพร้าที่อาวอนลี ส่งผลต่อหัวใจและความรู้สึกของทุกคนที่ได้พบเธอ...เริ่มต้นจากพี่น้องสูงวัยที่รับเธอมาอยู่ด้วย</p>
+        </div>
+        <div class="blog-con">
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABfOEVcv7hGc3nPQHWRx9uMgBt2LBec_vWV977FdDWB_0aFlmlwI6cREHSvmeVFJNYnvYfl17A-L3Q0zrx47fT16quQr_o8l8m6H1nbvlWbfB6abH2RA2Splt.jpg?r=46c" alt="">
+                <h4>1. ความมุ่งมั่นของเธอจะกำหนดโชคชะตาของเธอเอง</h4>
+                <p>ข้อความที่ผิดพลาดนำพาเด็กกำพร้าแอนน์ เชอร์ลีย์มาสู่กรีนเกเบิลส์ ในขณะที่พี่น้องแมทธิวและมาริลลา คัทเบิร์ต กำลังรอคอยเด็กผู้ชาย</p>
+            </div>
+            
+           
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABV4HerEGjJVlzCrz5YS-qWvd34lGjV6f2xoEa5lG4hWFVuchCfo0oULYJoiQ5VGa6OmDvzsLSt5aMO16Quc9YkwxeE-J4khvMRleHooMAJgLvuleGo7DN9QK.jpg?r=6fa" alt="">
+                <h4>2. ฉันไม่ใช่นกและไม่มีกรงไหนขังฉันได้</h4>
+                <p>แมทธิวผู้มุ่งมั่นออกเดินทางเพื่อพาแอนน์กลับบ้าน มาริลลาเครียดจากความกังวลเรื่องการแสดงออกความรู้สึกของเธอ</p>
+            </div>
+            
+            
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABeu9Kaen40yNXssFt7J9NRIz-JFM726KKzkzztK3PHnL35i_4UZpuRXVqXoHR5b75iO6uLeGhYxHR9dVEI2ufgiOyPqdMvJe8NP9MxgoUrRDCr5GEjGGK7D-.jpg?r=a2c" alt="">
+                <h4>3. แต่ทำไมวัยรุ่นถึงหัวรั้นนัก</h4>
+                <p>แอนน์เริ่มเข้าโรงเรียนที่อาวอนลี และพบว่ามีอะไรมากมายให้เธอต้องเรียนรู้ มาริลลายอมเปลี่ยนแปลงตัวเองและเข้าร่วมการประชุมแม่บ้านเย็บผ้า</p>
+            </div>
+        </div>
+
+        <div class="blog-con">
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABbEXfryiaqd6jZj_Q2NjJXQjbkPXal61c3xE5PkcPPaI2FyPcwjpcGwZZnu_F4CvMRR2bdYf8L8X1VT7IyHzze3t06p39Y0y9tqFTf3H1wJE1ksYYKtPYSUw.jpg?r=12f" alt="">
+                <h4>4. เกิดมาพร้อมสมบัติภายในใจ</h4>
+                <p>คำแนะนำของบาทหลวงทำให้มาริลลาตั้งคำถามกับทางเลือกของเธอ เมื่อเกิดเหตุโศกนาฏกรรม สติปัญญาของแอนน์ช่วยชีวิตคนหลายคน และกู้ชื่อเสียงที่ไม่ดีของเธอ</p>
+            </div>
+            
+           
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABYd7wSHvUDyyFOnKFfHsgCgaB6JCOEFHeX-7A2mJ46ufiLFON6XcufxmX1GOI8Xfh9toMGNBiEyE3h1qbLsVCjcVXexXAPJ0njuq5Tk4JPoxT50lWDbMu9Zl.jpg?r=ebd" alt="">
+                <h4>5. ผูกพันแน่นแฟ้นด้วยสายใยเดียวกัน</h4>
+                <p>แอนน์จัดงานเลี้ยงน้ำชา "แบบผู้ใหญ่" ให้กับไดอาน่าแต่ดูเหมือนจะเมามายกันเกินไป แมทธิวออกไปทำธุระที่สำคัญมาก</p>
+            </div>
+            
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABe2U6aMGNpCOjCzRtlhHUHBSu57mHMsubyIrBAKZwlGXThAD66YkS5D_oP0L-rNHkjTVBGsqA5yYW-pYVN_JlMvhvigAVLHDd0FKFYz_rUQoXnF5XEG0lFYw.jpg?r=f5d" alt="">
+                <h4>6. ความสำนึกผิดเป็นยาพิษของชีวิต</h4>
+                <p>แอนน์ใช้สติปัญญาแก้ไขปัญหาความสัมพันธ์ของแบร์รี เมื่อมินนี เมย์เกิดล้มป่วยหนัก ผลกระทบจากความสูญเสียทำให้มาริลลาระลึกถึงอดีต</p>
+            </div>
+
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABaBrg-6OpoiWru1_F31K0_V8bFgbfTptfe4XfJ2UoP0_oQRiWpzaYNDydC07uHVyCFWv9Jz_rSPABzRLb1uf_fJ2H1KjNU_BeWi926bgFqfu6-SOz_LMsd5u.jpg?r=ff1" alt="">
+                <h4>7. ไม่ว่าเธออยู่ไหนที่นั่นคือบ้านของฉัน</h4>
+                <p>อนาคตของกรีนเกเบิลส์ตกอยู่ในความเสี่ยง เมื่อแมทธิวนอนป่วยอยู่บนเตียง แอนน์และมาริลลาลงทุนลงแรงอย่างหนักเพื่อรักษาบ้านของพวกเขาไว้</p>
+            </div>
+        </div>
+    </div>
+</section>
+
+   <section class="blog">
+    <div class="container">
+
+        <div class="blog-title">
+            <h3>ซีซั่น 2  ตอนแอนน์ที่มี "น์"</h3>
+            <p>ปีเปิดตัว: 2018</p>
+            <p>โลกแห่งกรีนเกเบิลส์ที่แอนน์รักกว้างใหญ่ขึ้นเรื่อยๆ เมื่อมีผู้คนใหม่ๆ ผ่านเข้ามา รวมทั้งบทเรียนสอนใจเกี่ยวกับความรัก ความสูญเสีย และการเติบโตให้ได้เรียนรู้</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/c62lZeetEUQ" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="blog-con">
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABY1L8V79D-X_8VS-EJNRS4hj17K3CAqeMCm1HCccsg48F4LQSNtsigZSRVNhDWTJLd7YM6ldCRzzTN_PAp1Vwysn1PvFZlIRxyfipPeZZlb1GGgHyPXLE8hs.jpg?r=8da" alt="">
+                <h4>1. วัยหนุ่มสาวคือฤดูแห่งความหวัง</h4>
+                <p>แขกที่มาพักที่บ้านคัทเบิร์ตสร้างความตื่นเต้นด้วยคำถามที่ว่า อาจมีทองในอาวอนลี ส่วนกิลเบิร์ตได้เพื่อนใหม่ที่ทะเล</p>
+            </div>
+            
+           
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABSSCwWCEoTBsST9pdKMCT5GzrVU7i9PTAC2SqZIujcn43d0jjNLXauE76QaXhMvD2A_JX3tLIJveWZ-zmWrGHGQK9eTY_bGLIQz5MFhB_wjCTetQ9fI_tLM_.jpg?r=85b" alt="">
+                <h4>2. สัญลักษณ์คือสิ่งเล็กๆ ที่มีขอบเขต แต่การตีความนั้นไร้พรมแดน</h4>
+                <p>เรือกลแล่นมาถึงตรินิแดดและทำให้แบชต้องกลับไปเผชิญหน้ากับอดีตของตัวเอง ขณะเดียวกันบ้านแบร์รีสนับสนุนการขุดทอง แต่แม﻿ท﻿ธิวกับมาริลลารู้สึกไม่แน่ใจสักเท่าไหร่</p>
+            </div>
+            
+            
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUHOAu_De8yJoT6TCc70_zviQMJfrH2OZlxcUwrRmFtLC-J-eYFgZjsECL7b4RS_LbhBDwYpzj71Kq4E1pA1cskMpgJ26pO0mhtXMl60K4JNF2F48sNfbgua.jpg?r=55d" alt="">
+                <h4>3. การมองเห็นที่แท้จริงนั้นอยู่ภายใน</h4>
+                <p>การออกไปผจญภัยกับบ้านแบร์รีสอนให้แอนน์เชื่อในสัญชาตญานของตัวเอง ขณะเดียวกันมา﻿ริล﻿ลาเริ่มสงสัยว่าแขกในบ้านอาจจะไม่ได้ไร้เดียงสาอย่างที่เห็น</p> 
+            </div>
+
+        </div>
+
+        <div class="blog-con">
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABdX3m9z9ra4HfaHCDarJ6vn2AYayYKwp8V5SBT0VW_AgY7eHhp96rvWo4nFI2rtiO9va8AadPGIOf6WlGTMhZlZJEjUD0S21BFW33vby9D0nyDjiBCTM-xml.jpg?r=5f9" alt="">
+                <h4>4. ความกระตือรือร้นอันเจ็บปวดของความหวังไร้หนทาง</h4>
+                <p>แอนน์รับบท "กามเทพ" แล้วลงมือเขียนจดหมายรักขณะที่ไดอาน่ารับการฝึกเพื่อเป็นสุภาพสตรีที่บ้าน ขณะเดียวกันการเผชิญหน้าครั้งสำคัญทำให้กิลเบิร์ตได้พบกับเส้นทางชีวิตของเขา</p>
+            </div>
+            
+           
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABWyLto-n-5aCKCWCVbdX9HaJHt6v_1qp11fCP_GT2gtEW-tVqKq8N-WEYmvpL97UDT_DsDB3i2LFGRMmVGGXihHgJA0B5S-cw_ILHazdL-dcKbC3juO3YIJH.jpg?r=d00" alt="">
+                <h4>5. การกระทำที่กำหนดชีวิตเธอ</h4>
+                <p>เกมหมุนขวดนำไปสู่คำถามอันเจ็บแสบเกี่ยวกับความรักและความงาม และขณะที่กิลเบิร์ตเดินทางกลับบ้าน แอนน์กับโคลรู้สึกสนิทสนมกันมากขึ้นเพราะความต่างของทั้งคู่</p>
+            </div>
+            
+            
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABcEIJbaDInnIFl0fdJqz7aaXmp3H8LnOs2uW_rAzpMl4yUyBdZaGnss0sLMd-gTBM7rnyock-PMLYWtTlE9_fipl_LOuMPp3CFVlC780vyg6pTkklkA9hEyN.jpg?r=698" alt="">
+                <h4>6. ขอประท้วงต่อข้อสรุปเด็ดขาดใดๆ</h4>
+                <p>แอนน์มาในลุคใหม่อันน่าตกตะลึงขณะที่ทั้งเมืองกำลังเตรียมการสำหรับงานละครแพนโทไมม์ช่วงคริสต์มาส ส่วนกิลเบิร์ตกับแบชได้ร่วมทานมื้อค่ำกับบ้านคัทเบิร์ต</p>
+            </div>
+
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABaBlF0MUzkJ0jCrFLJiDUlXTMLk0HQ1XrIZ-dfFchlSFeiEsmgJSKFscb9ljXTLITUikOfHjajRuioXmEmxP48znjmVHdqBuqqhCJUguSUnu7QdkrlEEiJEh.jpg?r=147" alt="">
+                <h4>7. ความทรงจำมีหลายอารมณ์ สภาพจิตใจก็เช่นกัน</h4>
+                <p>โคลพาสาวๆ ไปที่บ้านของป้าโจเซฟินเพื่อร่วมงานเลี้ยงอันหรูหราที่เต็มไปด้วยเรื่องสุดเซอร์ไพรส์ ส่วนที่บ้าน สุขภาพของมาริลลาได้มาจึงจุดที่น่ากังวล</p>
+            </div>
+
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABdC2Yi0KrD-MEStKIutmNqQyhNfXcsxTIRIzLJ2fWWmLBgZ2VS5dnlXQiNYZhT5oG8ZAOTTv3vocaosmEuJB7Q4RJ8ZmVmZXVMwWShgVsZ8ZwDHUsBbS2Zfb.jpg?r=a45" alt="">
+                <h4>8. การต่อสู้กับการรับรู้ความจริง</h4>
+                <p>ขณะที่งานแต่งใกล้เข้ามาทุกที แอนน์ก็สงสัยว่าเธออยากจะเป็นเจ้าสาวแบบไหน มาริลลาเดินทางไปพบจักษุแพทย์ ที่เดอะบ็อกแบชได้พบกับใครบางคนที่คุ้นหน้า</p>
+            </div>
+
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABRKA03Hk3VbUut7w3-WB5AiJepSnFYC1YFJquEgGUQxBgAx4wuBgCUzeaNrlZ8V01WrmjrKOmc07fhgwkxpCXitwtXuZG44KhTHUfrYnrLHXQ4j3YByazPFJ.jpg?r=d41" alt="">
+                <h4>9. สิ่งที่เราทำหล่อหลอมสิ่งที่เราเป็น</h4>
+                <p>คุณครูคนใหม่มาถึงอาวอนลีพร้อมมอเตอร์ไซค์และวิธีการสอนสุดแหวกแนว ขณะเดียวกันแผนการเร่งอัดความรู้ของกิลเบิร์ตทำให้แบชรู้สึกมึนตึ้บ</p>
+            </div>
+
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABZ4S9TSg5QWHdEyD727g7BQO35zWXnF2hAZX9Qtxgs38wGphJ-KsdFcjgQm5_Df03KLSSrsP-qsAIKCFfwUe3mxCNSTwd-Z-HdZ4nFpYvveqrZZZTaCgTLvS.jpg?r=162" alt="">
+                <h4>10. ความดีงามของโลกกำลังเติบใหญ่</h4>
+                <p>แอนน์รวมพลกับเพื่อนๆ เพื่อช่วยมิสสเตซีหลังจากเกิดเหตุร้าย ขณะเดียวกันแบชได้รับของขวัญที่สร้างความประหลาดใจ ส่วนโคลตัดสินใจทำในสิ่งที่ไม่คาดคิด</p>
+            </div>
+
+        </div>
+    </div>
+</section>
+   <section class="blog">
+    <div class="container">
+
+        <div class="blog-title">
+            <h3>ซีซั่น 3   ตอนแอนน์ที่มี "น์"</h3>
+            <p>ปีเปิดตัว: 2019</p>
+            <p>วันเกิดในช่วงเปลี่ยนผ่านครั้งสำคัญได้จุดประกายให้แอนน์ตั้งคำถามถึงภูมิหลังของเธอขณะที่ต้องแก้ปัญหาหัวใจและเริ่มกำหนดเป้าหมายสำหรับอนาคตของตัวเอง</p>
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/UjHdj-vhND4" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+        </div>
+        <div class="blog-con">
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABePdsUq6w8YBWJYVHyl146tuMmwC9e3AeDLFm8vNZ_uJ5PaYjLhGK1LRQG2Wq96qQPzI66lSflO09MbF5BQPjNNC61IBCV1UeusSuWdPM9QKIR-q_l0QS0og.jpg?r=768" alt="">
+                <h4>1. ความลับในสิ่งที่ฉันปรารถนา</h4>
+                <p>แอนน์ได้พบกับผู้ที่มีจิตเหมือนกันที่หมู่บ้านมิกแมก จากนั้นก็พยายามค้นหาคำตอบที่สำคัญสำหรับวันเกิดปีที่ 16 ของตัวเอง คือเรื่องราวเกี่ยวกับตระกูลของเธอ</p>
+            </div>
+            
+           
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABSQTZAkXK4S7BChLTJxlRdQBiUua8_IO_MUMgLeiRKke48o4MYVhigX6fAqgl_nrgqdqAd_9zX4x9ta8lCPTep5j6Z5Ori9cC1JbTH6ki1_dT_Ha7-lxqvPL.jpg?r=c52" alt="">
+                <h4>2. มีสิ่งหนึ่งในจิตวิญญาณที่ฉันไม่เข้าใจ</h4>
+                <p>แอนน์กลับไปเยี่ยมบ้านเด็กกำพร้าเซนต์อัลบันส์เพื่อสอบถามข้อมูลเกี่ยวกับพ่อแม่ เอไลจาห์ซึ่งเป็นลูกของแมรี่ได้เดินทางกลับมาที่บ้าน ราเชลคิดว่ามิสสเตซีควรจะมีคู่ได้แล้ว</p>
+                
+            </div>
+            
+            
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABSBxt_fVUiAYdQNy10uEFgQIg9LWwpxpncaKohkPw6cCEjpvJWleqQbi9MoFjhaBERG0k2E37aFVQMI9IgNMo9BLwA98kJ8RvKU4Za52-5eUPP_1ef7BQ50M.jpg?r=1ac" alt="">
+                <h4>3. อะไรจะมาหยุดยั้งหัวใจที่มุ่งมั่นได้</h4>
+                <p>ขณะที่วันอีสเตอร์ใกล้จะมาถึง แมรี่ก็ล้มป่วยลงอย่างหนักซึ่งทำให้ทุกคนตัดสินใจยื่นมือเข้ามาช่วยเหลือ รัฐบาลก่อตั้งโรงเรียนประจำในฮาลิแฟกซ์</p>
+                
+            </div>
+
+        </div>
+        <div class="blog-con">
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABRg3mAhGgXprvP_tiq4O36RbzNGgm9eiGhYjp3s1IsYDuISMaY117dDfze6l6UFV4gxjDc9LCGH_eXtEOQcM-hOVGqN-IIC6_mWeq-jeKSXLxUcSodwqCSet.jpg?r=7ef" alt="">
+                <h4>4. ความหวังที่จะได้เจอเธอในอีกโลกหนึ่ง</h4>
+                <p>ขณะที่แบชตามหาเอไลจาห์ในชาร์ลอตต์ทาวน์ แอนน์ก็สาบานว่าจะทำภารกิจค้นหาของเธอให้สำเร็จเช่นกันโดยไม่สนคำคัดค้านของมาริลลา ขณะเดียวกันที่บ้าน ไดอาน่าเฝ้ารอการออกผจญภัย</p>
+            </div>
+            
+           
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABeF2mnfp5KDn8vwojWLvQygrcRQVaFvfGCwq-_BfrPWiq_yADkj-iN84zXS7tRJjKNPyDN5i1lwYGJ06U04LkD-58VJsv0ivxEL6xQ6CUwEpVCS2qwTqR8bm.jpg?r=529" alt="">
+                <h4>5. เพราะฉันกล้าหาญฉันจึงเปี่ยมไปด้วยพลัง</h4>
+                <p>การฝึกซ้อมเต้นก่อให้เกิดความรู้สึกแปลกระหว่างแอนน์และกิลเบิร์ต แบชผู้สิ้นหวังเขียนจดหมายถึงแม่ในตรินิแดด</p>
+            </div>
+            
+            
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABUaWFZJcjZghZI_FvfOHNoqga0goMV_avmrNrZwttYbOro863maPUAU-RWUkpAEwVp4bnS3HrFwoXPH8QWENuPY9gqJgTwv8fjUtjdiSHzi63s2eN4kZZPiQ.jpg?r=bab" alt="">
+                <h4>6. จุดสูงสุดของความปรารถนา</h4>
+                <p>แอนน์ไปขอคำปรึกษาจากหมอดูในงานแฟร์ซึ่งอ้างว่าเห็นภาพคนรักของเธอในอนาคต กิลเบิร์ตรู้สึกประหม่าและต้องเตรียมตัวเพื่อพบพ่อแม่ของวินเฟร็ด</p>
+            </div>
+
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABW0uTTqVgHI22NU7mZoWkFbcakLgkdtsPRcSa4zUum52HtSnlqQuOVoxGkv3eLynM3Utt_KgB7fbiVxSAyHi0QhOFnIews04JGF2Efej6wVcDIprvmmJGH5S.jpg?r=09f" alt="">
+                <h4>7. ความพยายามของความตั้งใจดี</h4>
+                <p>ความคิดเห็นของแอนน์ซึ่งได้รับการตีพิมพ์ในหนังสือพิมพ์สร้างความสั่นสะเทือนไปทั่วทั้งเมือง ความลับบางอย่างทำให้แอนน์และไดอาน่าห่างเหินกัน</p>
+            </div>
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABRmNh0odEyu4oXbqxlU8VGE0z9H7MF2u7LwgBTwoW42w6Pq-tpiMbv0_XV8ICSB8b9x1C4dp2IahM7dvyACqAl8xZj-gGTlf2DYRMQIkEqFo0-VTRR1Fbp7l.jpg?r=fcd" alt="">
+                <h4>8. ความเปลี่ยนแปลงอย่างกะทันหันครั้งยิ่งใหญ่</h4>
+                <p>กาเกว็ตหนีไปจากโรงเรียน มิสสเตซีชั่งใจเกี่ยวกับทางเลือกต่างๆ หลังเกิดโศกนาฏกรรม คุณป้าโจเซฟินสนับสนุนให้ไดอาน่าสอบเข้าควีนส์</p>
+            </div>
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABSC01IrL3qENnnDwfjzT-BxcTdXHw6EYUi6mn4BbtbBhmgRwlD4M_7q_QurVCp-yOTy8xPlGffuv287mRVcZpgdHeYZRlJuW1FvfQOxDl2rcTv5roYCT_ID4.jpg?r=322" alt="">
+                <h4>9. ความมืดที่หนาทึบและน่ากลัว</h4>
+                <p>แอนน์สารภาพความรู้สึกต่อกิลเบิร์ต แต่จะสายเกินไปหรือเปล่า ขณะเดียวกันแมทธิวช่วยเหลือครอบครัวของกาเกว็ต ส่วนแม่ของแบชปรับตัวเข้ากับชีวิตในอาวอนลี</p>
+            </div>
+            <div class="blog-item">
+                <img src="https://occ-0-1983-58.1.nflxso.net/dnm/api/v6/9pS1daC2n6UGc3dUogvWIPMR_OU/AAAABRtKBWPok1Nu6S6GZvro0KZz7vM4dvh-tP9GQm0clm2jKhr_ZudSnDDiU_7fwYcEsmFnhvPdSDtR8GpssHiwpKQdG64z2i2DSfkhwrLw58Il-v_eldyloSDS.jpg?r=4eb" alt="">
+                <h4>10. ความรู้สึกที่ดีขึ้นในหัวใจฉัน</h4>
+                <p>เกิดความเปลี่ยนแปลงมากมายเมื่อแอนน์เข้าเรียนในมหาวิทยาลัยและได้เผชิญชีวิตใหม่ซึ่งจะเป็นการผจญภัยครั้งยิ่งใหญ่กว่าที่เธอเคยสัมผัสมา</p>
+            </div>
+        </div>
+    </div>
+</section>
+   
+   <!-- Footer start -->
+   <footer>
+      <div class="footer">
+        <a href="file:///C:/Users/Acer/Desktop/NetflixWeb/webpage.html" class="blog-bth">Back</a>
+      </div>
+   </footer>
+   <!-- Footer End -->
+
+</body>
+</head>
+</html>
